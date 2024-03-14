@@ -594,6 +594,22 @@ video {
   top: 1rem;
 }
 
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.-top-1\/2 {
+  top: -50%;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
 .h-44 {
   height: 11rem;
 }
