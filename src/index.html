@@ -5,21 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
-<body class="m-0 p-0 font-['_Poppins_',_sans-serif] box-border">
+<body class="m-0 p-0 box-border font-[Poppins,_sans-serif]">
 
-    <div class="bg-[linear-gradient(45deg,_#e9b7ce,_#d3f3f1)] min-h-screen w-full text-white relative text-3xl"> <!-- hero -->
-        <div
-            class="w-64 h-48 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-400 before:content-[""] before:w-[180px] before:h-[180px] before:bg-[#f41b75] before:rounded-[5px] before:absolute before:-left-[50px] before:-top-[50px]">
-            <!-- container -->
-            <div class="w-full h-full bg-[rgba(235,_0,_255,_0.11)] rounded-[10px] flex items-center"><!-- clock -->
-                00.00.00
+    <div class="w-full min-h-screen bg-[linear-gradient(45deg,_#f3ec78,_#eb6e91)] text-[#fff] relative">
+        <div class="w-[800px] h-[180px] absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2">
+            <div
+                class="w-full h-full bg-[rgb(227,_65,_242)] rounded-[10px] flex items-center justify-center before:content-[""] before:w-[180px] before:h-[180px] before:bg-[#f41b75] before:rounded-[5px] before:absolute before:-left-[50px] before:-top-[50px] after:content-[''] after:w-[180px] after:h-[180px] after:bg-[#419aff] after:rounded-[50%] after:absolute after:-right-[30px] after:-bottom-[50px]">
+
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+
             </div>
         </div>
     </div>
-
+    <script src="./script.js"></script>
 </body>
 
 </html>
